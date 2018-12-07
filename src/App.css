@@ -24,7 +24,15 @@
 }
 
 .nav {
-   color: red;
+   color: red !important;
+
+}
+navbar-default .navbar-nav > li.test > a { color: red; }
+
+.grid-img{
+   height:25%;
+   width: 300px;
+   padding: 5px;
 }
 
 @keyframes App-logo-spin {

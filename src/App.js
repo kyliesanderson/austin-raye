@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import { Nav, NavItem } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container } from 'reactstrap';
+import Navbar from './Navbar.js';
+import GridItem from './GridItem.js';
 import './App.css';
 
 class App extends Component {
@@ -11,11 +12,8 @@ class App extends Component {
          <a href="/">
             <h1> Austin Raye Haffelfinger</h1>
          </a>
-         <Nav bsStyle="pills" justified className= "nav">
-            <NavItem href="/about">About</NavItem>
-            <NavItem href="/portfolio">Portfolio</NavItem>
-            <NavItem href="/resume">Resume</NavItem>
-         </Nav>
+         <Navbar/>
+         <GridItem />
       </Container>
     );
   }
