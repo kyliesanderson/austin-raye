@@ -31,8 +31,20 @@
 
 }
 
+.logo-img{
+   border-radius: 125px;
+   height: 250px;
+   width: 250px;
+   object-fit: cover;
+   margin-top: 50px;
+}
+
 .nav-link{
    color: black;
+}
+
+.nav-link:hover{
+   color: gray;
 }
 
 .grid-img{
@@ -58,8 +70,27 @@
    opacity: 0.7;
 }
 
+.character-button:active{
+   box-shadow: none !important;
+   border: none;
+}
+
+.character-button:focus{
+   box-shadow: none;
+}
+
+.modal-body-mod {
+   max-height: calc(100vh - 250px);
+   overflow-y:auto;
+   align-items: center;
+   text-align: center;
+}
 .modal-img {
-   width: 100%;
+   max-height: calc(100vh - 300px);
+}
+
+.modal-mod {
+   width: calc(100% - 250px;)
 }
 
 @keyframes App-logo-spin {

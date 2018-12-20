@@ -29,7 +29,7 @@ class CharacterCard extends Component {
 
          <Modal size="lg" isOpen={this.state.modal} toggle={this.toggle}>
             <ModalHeader toggle={this.toggle} />
-            <ModalBody>
+            <ModalBody className="modal-body-mod">
                <img className="modal-img" src={require("./" + this.props.image)} />
             </ModalBody>
             <ModalFooter>

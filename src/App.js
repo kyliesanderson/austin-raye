@@ -10,9 +10,7 @@ class App extends Component {
   render() {
     return (
       <Container className="App">
-         <a href="/">
-            <h1> Austin Raye Haffelfinger</h1>
-         </a>
+         <img className="logo-img" src={require('./cat.jpg')}/>
          <Navbar/>
          <BrowserRouter>
             <Route exact path="/character-design" component={CharacterGrid} />
