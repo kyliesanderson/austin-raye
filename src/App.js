@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container } from 'reactstrap';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Navbar from './Navbar.js';
-import GridItem from './GridItem.js';
+import CharacterGrid from './CharacterGrid.js';
 import './App.css';
 
 class App extends Component {
@@ -13,7 +14,9 @@ class App extends Component {
             <h1> Austin Raye Haffelfinger</h1>
          </a>
          <Navbar/>
-         <GridItem />
+         <BrowserRouter>
+            <Route exact path="/character-design" component={CharacterGrid} />
+         </BrowserRouter>
       </Container>
     );
   }
