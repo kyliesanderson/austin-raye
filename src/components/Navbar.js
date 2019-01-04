@@ -28,7 +28,7 @@ class Navbar extends Component {
          <Container>
             <Row className="navbar">
                <Col>
-                  <a className="nav-link" href="/about">ABOUT</a>
+                  <a className="nav-link" href="/">ABOUT</a>
                </Col>
                <Col>
                   <a className="nav-link" href="/character-design">PORTFOLIO</a>
