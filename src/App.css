@@ -1,6 +1,17 @@
+@font-face {
+   font-family: General;
+   src: url("./Text Files/GeosansLight.ttf");
+}
+
+@font-face {
+   font-family: Accent;
+   src: url("./Text Files/Cecilia.otf");
+}
+
 .App {
   text-align: center;
   width: 60%;
+  margin-bottom: 100px;
 }
 
 .App-logo {
@@ -24,8 +35,8 @@
 }
 
 .navbar {
-   border-top: 3px solid #cccccf;
-   border-bottom: 3px solid #cccccf;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
    margin-bottom: 50px;
    margin-top: 50px;
 
@@ -34,10 +45,17 @@
 .logo-img{
 
    margin-top: 50px;
+   width: auto;
+   height: auto;
+   max-width: 100%;
+
 }
 
 .nav-link{
    color: black;
+   font-family: Accent;
+   font-weight: bold;
+   font-size: 20px;
 }
 
 .nav-link:hover{
@@ -76,18 +94,86 @@
    box-shadow: none;
 }
 
+.character-card-deck{
+   align-items: center;
+   align-content: center;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
 .modal-body-mod {
    max-height: calc(100vh - 250px);
    overflow-y:auto;
    align-items: center;
    text-align: center;
+   background-color: white;
+   border: none;
 }
+
+.modal-header {
+   font-weight: bold !important;
+   font-size: 100px !important;
+   border: none;
+}
+
+.modal-footer-mod {
+   border: none;
+   font-size: 16px;
+   text-align: center !important;
+}
+
 .modal-img {
    max-height: calc(100vh - 300px);
 }
 
+.close-button{
+   width: 30px;
+   height: 30px;
+   background-color: white;
+   border: none;
+   align-items: center;
+}
+
+.close-button:hover{
+   background: white;
+}
+
+.close-img{
+   width: 30x;
+   height: 30px;
+   object-fit: cover;
+}
+
 .modal-mod {
-   width: calc(100% - 250px;)
+
+   border: none !important;
+
+}
+
+.footer-text{
+   text-align: center !important;
+   font-family: General;
+   font-size: 20px;
+
+}
+
+.header-text{
+   font-family: Accent;
+   font-size: 40px;
+   font-weight: bold;
+}
+
+.about-img{
+   width: 100%;
+   height: 500px;
+   object-fit: cover;
+}
+
+.about-text{
+   font-family: General;
+   font-size: 20px;
+   text-align: left;
 }
 
 @keyframes App-logo-spin {

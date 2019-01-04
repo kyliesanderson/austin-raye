@@ -1,4 +1,4 @@
-import characters from './data/characters.json';
+import characters from '../data/characters.json';
 import CharacterCard from './CharacterCard.js';
 import React, { Component } from 'react';
 import {Container, Row, Col, CardGroup} from 'reactstrap';
@@ -24,7 +24,7 @@ class CharacterGrid extends Component {
 
    render(){
       return (
-         <CardGroup>
+         <CardGroup className="character-card-deck">
             {this.createCards(characters)}
          </CardGroup>
       )

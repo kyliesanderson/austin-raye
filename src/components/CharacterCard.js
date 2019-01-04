@@ -18,22 +18,26 @@ class CharacterCard extends Component {
    }
 
    render(){
-      var image = require('./Images/' + this.props.image);
+      var image = require('../Images/characters/' + this.props.image);
+      const closeBtn = <button className="close" onClick={this.toggle}>&times;</button>;
+
       return (
          <div>
          <Button className="character-button" onClick={this.toggle}>
             <Card className="character-card">
-               <CardImg className="grid-img" src={require("./Images/" + this.props.image)} />
+               <CardImg className="grid-img" src={require("../Images/characters/" + this.props.image)} />
             </Card>
          </Button>
 
-         <Modal size="lg" isOpen={this.state.modal} toggle={this.toggle}>
-            <ModalHeader toggle={this.toggle}>{this.props.title}</ModalHeader>
+         <Modal className="modal-mod" size="lg" isOpen={this.state.modal} toggle={this.toggle}>
+            <ModalHeader className="modal-header-mod" close={closeBtn} >
+               <h1 className="header-text">{this.props.title.toUpperCase()}</h1>
+            </ModalHeader>
             <ModalBody className="modal-body-mod">
-               <img className="modal-img" src={require("./Images/" + this.props.image)} />
+               <img className="modal-img" src={require("../Images/characters/" + this.props.image)} />
             </ModalBody>
-            <ModalFooter>
-               <p>{this.props.description}</p>
+            <ModalFooter className="modal-footer-mod">
+               <p className="footer-text">{this.props.description}</p>
             </ModalFooter>
          </Modal>
          </div>

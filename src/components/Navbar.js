@@ -28,13 +28,13 @@ class Navbar extends Component {
          <Container>
             <Row className="navbar">
                <Col>
-                  <a className="nav-link" href="/about">About</a>
+                  <a className="nav-link" href="/about">ABOUT</a>
                </Col>
                <Col>
-                  <Dropdown isOpen={this.state.dropownOpen} toggle={this.toggle}>
+                  <a className="nav-link" href="/character-design">PORTFOLIO</a>
+                  {/*<Dropdown className="nav-link" isOpen={this.state.dropownOpen} toggle={this.toggle}>
                      <DropdownToggle
                         tag="span"
-                        onClick={this.portfolioClick}
                         onMouseEnter={this.toggle}
                         onMouseExit={this.toggle}
                         data-toggle="dropdown"
@@ -47,9 +47,10 @@ class Navbar extends Component {
                         <a className="nav-link" href="/environment-design">Environment Design</a>
                      </DropdownMenu>
                   </Dropdown>
+                  */}
                </Col>
                <Col>
-                  <a className="nav-link" href="/resume">Resume</a>
+                  <a className="nav-link" href="/resume">RESUME</a>
                </Col>
             </Row>
          </Container>
