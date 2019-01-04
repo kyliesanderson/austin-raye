@@ -18,7 +18,7 @@ class App extends Component {
          <Navbar/>
          <Route path="/resume" component={Resume} />
          <Route path="/character-design" component={CharacterGrid} />
-         <Route path="/about" component={About} />
+         <Route path="/" component={About} />
       </Container>
     );
   }
