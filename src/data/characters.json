@@ -1,0 +1,144 @@
+{
+   "objects": [
+      {
+         "title": "Merchant",
+         "imageName": "AustinRaye_Character1.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Wizard",
+         "imageName": "AustinRaye_Character2.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Dwarf",
+         "imageName": "AustinRaye_Character3.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Gladiator",
+         "imageName": "AustinRaye_Character4.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Octogal",
+         "imageName": "AustinRaye_Character5.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Yokai",
+         "imageName": "AustinRaye_Character6.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Half",
+         "imageName": "AustinRaye_Character7.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Barmaid",
+         "imageName": "AustinRaye_Character8.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Flawless",
+         "imageName": "AustinRaye_Character9.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Valentine",
+         "imageName": "AustinRaye_Character10.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Tiefling",
+         "imageName": "AustinRaye_Character11.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Bartender",
+         "imageName": "AustinRaye_Character12.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Batman",
+         "imageName": "AustinRaye_Character13.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Knight Trainee",
+         "imageName": "AustinRaye_Character14.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Hairless Cat",
+         "imageName": "AustinRaye_Character15.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Pit Fighter",
+         "imageName": "AustinRaye_Character16.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Business Man",
+         "imageName": "AustinRaye_Character17.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Golem",
+         "imageName": "AustinRaye_Character18.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Earth Witch",
+         "imageName": "AustinRaye_Character19.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Cerberus",
+         "imageName": "AustinRaye_Character20.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Trollkin",
+         "imageName": "AustinRaye_Character21.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Partially Invisible Man",
+         "imageName": "AustinRaye_Character22.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Shop Keep",
+         "imageName": "AustinRaye_Character23.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Amputee",
+         "imageName": "AustinRaye_Character24.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Old Knight",
+         "imageName": "AustinRaye_Character25.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Bright Eyes",
+         "imageName": "AustinRaye_Character26.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Half-Orc",
+         "imageName": "AustinRaye_Character27.jpg",
+         "description": "PrismaColor character portrait"
+      },
+	  {
+         "title": "Rat",
+         "imageName": "AustinRaye_Character28.jpg",
+         "description": "PrismaColor character portrait"
+      }
+   ]
+}

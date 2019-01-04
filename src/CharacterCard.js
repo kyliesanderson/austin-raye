@@ -18,19 +18,19 @@ class CharacterCard extends Component {
    }
 
    render(){
-      var image = require('./' + this.props.image);
+      var image = require('./Images/' + this.props.image);
       return (
          <div>
          <Button className="character-button" onClick={this.toggle}>
             <Card className="character-card">
-               <CardImg className="grid-img" src={require("./" + this.props.image)} />
+               <CardImg className="grid-img" src={require("./Images/" + this.props.image)} />
             </Card>
          </Button>
 
          <Modal size="lg" isOpen={this.state.modal} toggle={this.toggle}>
-            <ModalHeader toggle={this.toggle} />
+            <ModalHeader toggle={this.toggle}>{this.props.title}</ModalHeader>
             <ModalBody className="modal-body-mod">
-               <img className="modal-img" src={require("./" + this.props.image)} />
+               <img className="modal-img" src={require("./Images/" + this.props.image)} />
             </ModalBody>
             <ModalFooter>
                <p>{this.props.description}</p>

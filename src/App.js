@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <Container className="App">
-         <img className="logo-img" src={require('./cat.jpg')}/>
+         <img className="logo-img" src={require('./AUSTIN RAYE LOGO.png')}/>
          <Navbar/>
          <BrowserRouter>
             <Route exact path="/character-design" component={CharacterGrid} />

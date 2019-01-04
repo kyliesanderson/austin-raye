@@ -1,4 +1,4 @@
-import characters from './data/mock.json';
+import characters from './data/characters.json';
 import CharacterCard from './CharacterCard.js';
 import React, { Component } from 'react';
 import {Container, Row, Col, CardGroup} from 'reactstrap';
