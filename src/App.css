@@ -69,7 +69,7 @@
 }
 
 .character-card{
-   width: 277.5px;
+   width: 275px;
    height: 25%;
    padding: 0px;
    border-radius: 0;
@@ -125,6 +125,7 @@
 
 .modal-img {
    max-height: calc(100vh - 300px);
+   max-width:  calc(100vw - 300px);
 }
 
 .close-button{
@@ -161,19 +162,26 @@
 .header-text{
    font-family: Accent;
    font-size: 40px;
-   font-weight: bold;
+
 }
 
 .about-img{
+   max-width: 600px;
    width: 100%;
-   height: 500px;
+   min-height: 200px;
+   height: 100%;
    object-fit: cover;
+   margin-bottom: 20px;
+
 }
 
 .about-text{
    font-family: General;
    font-size: 20px;
-   text-align: left;
+   max-width: 600px;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 @keyframes App-logo-spin {
