@@ -16,7 +16,6 @@ class App extends Component {
             <img className="logo-img" src={require('./Images/AUSTIN RAYE LOGO.png')}/>
          </a>
          <Navbar/>
-         <Route path="/resume" component={Resume} />
          <Route path="/character-design" component={CharacterGrid} />
          <Route exact path="/" component={About} />
       </Container>

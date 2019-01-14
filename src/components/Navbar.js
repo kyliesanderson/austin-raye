@@ -50,7 +50,7 @@ class Navbar extends Component {
                   */}
                </Col>
                <Col>
-                  <a className="nav-link" href="/resume">RESUME</a>
+                  <a className="nav-link" href="https://drive.google.com/file/d/18quwSEW0sUWcVwBfGJKNV2WnzSrehx25/view?usp=sharing" target="_blank">RESUME</a>
                </Col>
             </Row>
          </Container>

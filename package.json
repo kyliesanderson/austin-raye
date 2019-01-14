@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-pdf/renderer": "^1.1.1",
     "bootstrap": "^4.1.3",
     "heroku": "^7.19.4",
     "jquery": "^3.3.1",

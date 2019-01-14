@@ -125,7 +125,6 @@
 
 .modal-img {
    max-height: calc(100vh - 300px);
-   max-width:  calc(100vw - 300px);
 }
 
 .close-button{
@@ -166,10 +165,8 @@
 }
 
 .about-img{
-   max-width: 600px;
+
    width: 100%;
-   min-height: 200px;
-   height: 100%;
    object-fit: cover;
    margin-bottom: 20px;
 

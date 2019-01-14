@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import { Document, Page } from 'react-pdf';
-
+import resume from '../AUSTIN RAYE RESUME.pdf';
 
 class Resume extends Component {
    constructor(props){
       super(props);
-      
+
       this.render = this.render.bind(this);
       this.onDocumentLoadSuccess = this.onDocumentLoadSuccess.bind(this);
 
@@ -22,7 +22,7 @@ class Resume extends Component {
 
    render(){
       return (
-         <Document file="AUSTIN RAYE RESUME.pdf" onLoadSuccess={this.onDocumentLoadSuccess}>
+         <Document file={resume} onLoadSuccess={this.onDocumentLoadSuccess}>
             <Page pageNumber={this.state.pageNumber} />
          </Document>
       );
