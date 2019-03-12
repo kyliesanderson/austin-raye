@@ -31,23 +31,20 @@ class Navbar extends Component {
                   <a className="nav-link" href="/">ABOUT</a>
                </Col>
                <Col>
-                  <a className="nav-link" href="/character-design">PORTFOLIO</a>
-                  {/*<Dropdown className="nav-link" isOpen={this.state.dropownOpen} toggle={this.toggle}>
+                  <Dropdown className="nav-link" isOpen={this.state.dropownOpen} toggle={this.toggle}>
                      <DropdownToggle
                         tag="span"
-                        onMouseEnter={this.toggle}
-                        onMouseExit={this.toggle}
+                        onClick={this.toggle}
                         data-toggle="dropdown"
                         aria-expanded={this.state.dropdownOpen}
                      >
-                     Portfolio
+                     PORTFOLIO
                      </DropdownToggle>
                      <DropdownMenu>
-                        <a className="nav-link" href="/character-design">Character Design</a>
-                        <a className="nav-link" href="/environment-design">Environment Design</a>
+                        <a className="nav-link" href="/character-design">CHARACTER DESIGN</a>
+                        <a className="nav-link" href="/environment-design">ENVIRONMENT DESIGN</a>
                      </DropdownMenu>
                   </Dropdown>
-                  */}
                </Col>
                <Col>
                   <a className="nav-link" href="https://drive.google.com/file/d/18quwSEW0sUWcVwBfGJKNV2WnzSrehx25/view?usp=sharing" target="_blank">RESUME</a>

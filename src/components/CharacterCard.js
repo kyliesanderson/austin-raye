@@ -23,9 +23,9 @@ class CharacterCard extends Component {
 
       return (
          <div>
-         <Button className="character-button" onClick={this.toggle}>
+         <Button className="grid-button" onClick={this.toggle}>
             <Card className="character-card">
-               <CardImg className="grid-img" src={require("../Images/characters/" + this.props.image)} />
+               <CardImg className="character-img" src={require("../Images/characters/" + this.props.image)} />
             </Card>
          </Button>
 

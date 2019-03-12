@@ -62,7 +62,7 @@
    color: gray;
 }
 
-.grid-img{
+.character-img{
    height:25%;
    width: 100%;
    padding: 5px;
@@ -76,23 +76,37 @@
    border: none;
 }
 
-.character-button {
+.grid-button {
    padding: 0px;
    border: none;
 }
 
-.character-button:hover{
+.grid-button:hover{
    opacity: 0.7;
 }
 
-.character-button:active{
+.grid-button:active{
    box-shadow: none !important;
    border: none;
 }
 
-.character-button:focus{
+.grid-button:focus{
    box-shadow: none;
 }
+
+.enviro-card{
+
+}
+
+.enviro-img {
+
+}
+
+.enviro-card-deck{
+
+}
+
+
 
 .character-card-deck{
    align-items: center;
