@@ -7,18 +7,6 @@
          "size": "large"
       },
       {
-         "title": "Tall Trees",
-         "imageName": "Forest_Scene.jpg",
-         "description": "Digital environment",
-         "size": "medium"
-      },
-      {
-         "title": "Tree Dragon",
-         "imageName": "Living_Forest.jpg",
-         "description": "Digital concept design",
-         "size": "medium"
-      },
-      {
          "title": "Night Scene",
          "imageName": "Night_Scene.jpg",
          "description": "Watercolor environment",
@@ -29,6 +17,19 @@
          "imageName": "City_Draft.png",
          "description": "Building concepts",
          "size": "medium"
+      },
+      {
+         "title": "Tall Trees",
+         "imageName": "Forest_Scene.jpg",
+         "description": "Digital environment",
+         "size": "medium"
+      },
+      {
+         "title": "Tree Dragon",
+         "imageName": "Living_Forest.jpg",
+         "description": "Digital concept design",
+         "size": "medium"
       }
+
    ]
 }
