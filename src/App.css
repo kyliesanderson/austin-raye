@@ -76,6 +76,52 @@
    border: none;
 }
 
+.character-card-deck{
+   align-items: center;
+   align-content: center;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.enviro-img {
+   height: 250px;
+   width: 100%;
+   padding: 5px;
+   object-fit: cover;
+}
+
+.enviro-img-large {
+   height: 500px;
+   width: 100%;
+   padding: 5px;
+   object-fit: cover;
+}
+
+.enviro-card{
+   width: 100%;
+   height: 250px;
+   padding: 0px;
+   border-radius: 0;
+   border: none;
+}
+
+.enviro-card-large {
+   width: 100%;
+   height: 500px;
+   padding: 0px;
+   border-radius: 0;
+   border: none;
+}
+
+.enviro-card-deck{
+   align-items: center;
+   align-content: center;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
 .grid-button {
    padding: 0px;
    border: none;
@@ -94,26 +140,8 @@
    box-shadow: none;
 }
 
-.enviro-card{
-
-}
-
-.enviro-img {
-
-}
-
-.enviro-card-deck{
-
-}
-
-
-
-.character-card-deck{
-   align-items: center;
-   align-content: center;
-   text-align: center;
-   display: flex;
-   justify-content: center;
+.modal-mod {
+   border: none !important;
 }
 
 .modal-body-mod {
@@ -123,6 +151,7 @@
    text-align: center;
    background-color: white;
    border: none;
+   display: inline-block;
 }
 
 .modal-header {
@@ -141,6 +170,19 @@
    max-height: calc(100vh - 300px);
 }
 
+.enviro-modal-img {
+   max-width: calc(70vw - 100px);
+   max-height: calc(100vh - 300px);
+
+}
+
+.enviro-modal-mod {
+   border: none !important;
+   max-width: 80vw !important;
+   width: 70vw;
+   margin: auto;
+}
+
 .close-button{
    width: 30px;
    height: 30px;
@@ -157,12 +199,6 @@
    width: 30x;
    height: 30px;
    object-fit: cover;
-}
-
-.modal-mod {
-
-   border: none !important;
-
 }
 
 .footer-text{

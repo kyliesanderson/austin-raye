@@ -1,29 +1,34 @@
 {
    "objects": [
       {
-         "title": "Sunset Piece",
-         "imageName": "Sunset_Piece.jpg",
-         "description": "description goes here"
+         "title": "Sunset Town",
+         "imageName": "Sunset_Piece_Finished.jpg",
+         "description": "Digital environment",
+         "size": "large"
       },
       {
-         "title": "Forest Scene",
+         "title": "Tall Trees",
          "imageName": "Forest_Scene.jpg",
-         "description": "description goes here"
+         "description": "Digital environment",
+         "size": "medium"
       },
       {
-         "title": "Living Forest",
+         "title": "Tree Dragon",
          "imageName": "Living_Forest.jpg",
-         "description": "description goes here"
+         "description": "Digital concept design",
+         "size": "medium"
       },
       {
          "title": "Night Scene",
          "imageName": "Night_Scene.jpg",
-         "description": "description goes here"
+         "description": "Watercolor environment",
+         "size": "medium"
       },
       {
-         "title": "City Scene",
-         "imageName": "City_Draft.jpg",
-         "description": "description goes here"
+         "title": "Long City",
+         "imageName": "City_Draft.png",
+         "description": "Building concepts",
+         "size": "medium"
       }
    ]
 }

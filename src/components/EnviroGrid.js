@@ -1,13 +1,35 @@
-import React, {Component} from 'react';
+import environments from '../data/enviros.json';
+import EnviroCard from './EnviroCard.js';
+import React, { Component } from 'react';
+import {Container, Row, Col, CardGroup} from 'reactstrap';
 
 class EnviroGrid extends Component {
+   constructor(props){
+      super(props);
 
-   render (){
-      return (
-         <p>hello</p>
-      );
+      this.render = this.render.bind(this);
    }
 
+   createCard(item){
+      return <EnviroCard
+         image={item.imageName}
+         title={item.title}
+         description={item.description}
+         size={item.size}
+      />;
+   }
+
+   createCards(items){
+      return items.objects.map(this.createCard);
+   }
+
+   render(){
+      return (
+         <CardGroup className="enviro-card-deck">
+            {this.createCards(environments)}
+         </CardGroup>
+      )
+   }
 }
 
 export default EnviroGrid;
