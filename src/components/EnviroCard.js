@@ -19,7 +19,13 @@ class EnviroCard extends Component {
    }
 
    render(){
-      var image = require('../Images/enviros/' + this.props.image);
+      var image;
+      if(this.props.thumbnail != "null"){
+         image = require('../Images/enviros/' + this.props.thumbnail);
+      }
+      else{
+         image = require('../Images/enviros/' + this.props.image);
+      }
       const closeBtn = <button className="close" onClick={this.toggle}>&times;</button>;
 
       if(this.props.size == "large"){
@@ -27,7 +33,7 @@ class EnviroCard extends Component {
             <div>
             <Button className="grid-button" onClick={this.toggle}>
                <Card className="enviro-card-large">
-                  <CardImg className="enviro-img-large" src={require("../Images/enviros/" + this.props.image)} />
+                  <CardImg className="enviro-img-large" src={image} />
                </Card>
             </Button>
 
@@ -50,7 +56,7 @@ class EnviroCard extends Component {
             <div>
             <Button className="grid-button" onClick={this.toggle}>
                <Card className="enviro-card">
-                  <CardImg className="enviro-img" src={require("../Images/enviros/" + this.props.image)} />
+                  <CardImg className="enviro-img" src={image} />
                </Card>
             </Button>
 

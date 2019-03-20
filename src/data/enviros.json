@@ -4,31 +4,36 @@
          "title": "Sunset Town",
          "imageName": "Sunset_Piece_Finished.jpg",
          "description": "Digital environment",
-         "size": "large"
+         "size": "large",
+         "thumbnail": "null"
       },
       {
          "title": "Night Scene",
          "imageName": "Night_Scene.jpg",
          "description": "Watercolor environment",
-         "size": "medium"
+         "size": "medium",
+         "thumbnail": "null"
       },
       {
          "title": "Long City",
-         "imageName": "City_Draft.png",
+         "imageName": "City_Draft.jpg",
          "description": "Building concepts",
-         "size": "medium"
+         "size": "medium",
+         "thumbnail": "null"
       },
       {
          "title": "Tall Trees",
          "imageName": "Forest_Scene.jpg",
          "description": "Digital environment",
-         "size": "medium"
+         "size": "medium",
+         "thumbnail": "Forest_Scene_Thumbnail.jpg"
       },
       {
          "title": "Tree Dragon",
          "imageName": "Living_Forest.jpg",
          "description": "Digital concept design",
-         "size": "medium"
+         "size": "medium",
+         "thumbnail": "Living_Forest_Thumbnail.jpg"
       }
 
    ]

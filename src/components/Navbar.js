@@ -43,6 +43,7 @@ class Navbar extends Component {
                      <DropdownMenu>
                         <a className="nav-link" href="/character-design">CHARACTER DESIGN</a>
                         <a className="nav-link" href="/environment-design">ENVIRONMENT DESIGN</a>
+                        <a className="nav-link" href="/spellsonder">SPELLSONDER</a>
                      </DropdownMenu>
                   </Dropdown>
                </Col>

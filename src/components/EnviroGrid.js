@@ -16,6 +16,7 @@ class EnviroGrid extends Component {
          title={item.title}
          description={item.description}
          size={item.size}
+         thumbnail={item.thumbnail}
       />;
    }
 
