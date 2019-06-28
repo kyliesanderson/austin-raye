@@ -63,7 +63,7 @@
 }
 
 .character-img{
-   height:25%;
+   height: 100% !important;
    width: 100%;
    padding: 5px;
 }
