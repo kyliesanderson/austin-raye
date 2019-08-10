@@ -28,7 +28,7 @@ class Navbar extends Component {
          <Container>
             <Row className="navbar">
                <Col>
-                  <a className="nav-link" href="/">ABOUT</a>
+                  <a className="nav-link" href="/about">ABOUT</a>
                </Col>
                <Col>
                   <Dropdown className="nav-link" isOpen={this.state.dropownOpen} toggle={this.toggle}>
