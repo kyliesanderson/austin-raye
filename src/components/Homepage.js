@@ -19,10 +19,10 @@ class Homepage extends Component {
             <h1 className="homepage-title">STYLE</h1>
             <img className="homepage-img" src={stylePreview} />
             <h1 className="homepage-title">STORYBOARD</h1>
-            <div className="homepage-vid">
+            <div className="embed-container">
             <iframe
                width="100%"
-               height="562"
+               height="100%"
                src="https://player.vimeo.com/video/352385273"
                frameborder="0"
                webkitallowfullscreen

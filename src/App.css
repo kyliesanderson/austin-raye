@@ -253,20 +253,30 @@
    object-fit: cover;
 }
 
-.homepage-vid{
-   width: 100%;
-}
-
-.homepage-title{
-   font-family: Accent;
-   font-size: 50px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media all and (max-width: 2000px) and (min-width: 800px) {
+  .homepage-title {
+    font-family: Accent;
+    font-size: 50px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media all and (max-width: 800px) and (min-width: 600px) {
+  .homepage-title {
+    font-family: Accent;
+    font-size: 40px;
+  }
+}
+
+@media all and (max-width: 600px) and (min-width: 500px) {
+  .homepage-title {
+    font-family: Accent;
+    font-size: 40px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .homepage-title {
+    font-family: Accent;
+    font-size: 20px;
   }
 }
